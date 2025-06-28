@@ -24,7 +24,7 @@ if조건문을 개인적으로 공부하고도 부끄럽지만 GPT의 힘을 빌
 
 1. 구조 설계 – HTML
    
- 캐러셀은 시맨틱한 <section> 태그 안에 구성되며, 제목은 <h2>, 실제 콘텐츠 영역은 carousel-container, 움직이는 트랙은 carousel-track, 개별 페이지 묶음은 carousel-page로 나누었다.
+ 캐러셀은 시맨틱한 <section> 태그 안에 구성되며, 제목은 h2, 실제 콘텐츠 영역은 carousel-container, 움직이는 트랙은 carousel-track, 개별 페이지 묶음은 carousel-page로 나누었다.
 
 한 페이지에는 게임 카드 2개가 포함되고, 전체 트랙은 flex 레이아웃을 통해 좌우로 정렬되도록 했다. 또한 <button> 요소를 사용하여 좌우 네비게이션을 구성하고, 페이지 번호를 텍스트로 노출시켜 현재 위치를 직관적으로 알 수 있도록 하였다.
 
