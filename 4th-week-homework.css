@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Pretendard", "Apple SD Gothic Neo", sans-serif;
+  background: #fff;
+}
+.container {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.left {
+  flex: 1 1 0;
+  min-width: 340px;
+  max-width: 640px;
+  padding-left: 80px;
+}
+.right {
+  flex: 1 1 0;
+  min-width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  height: 820px;
+  max-width: 600px;
+  border-radius: 20px;
+}
+.badge {
+  color: #ab1010;
+  font-size: 20px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+.main-title {
+  color: #ab1010;
+  font-size: 50px;
+  font-weight: 800;
+  margin-bottom: 35px;
+  margin-top: 0;
+  line-height: 1.15;
+  letter-spacing: -1px;
+}
+.desc {
+  color: #463837;
+  font-size: 20px;
+  margin-bottom: 45px;
+  line-height: 1.75;
+  max-width: 430px;
+}
+.button-row {
+  display: flex;
+  gap: 35px;
+  margin-top: 20px;
+}
+.btn-black {
+  padding: 15px 40px;
+  background: #231815;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-red {
+  background: none;
+  color: #ba1314;
+  font-weight: 600;
+  border: none;
+  font-size: 15px;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 15px 20px;
+  border-radius: 25px;
+}
+.animation {
+  opacity: 0;
+  transform: translateY(50px) scale(0.8);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+.animation.active {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
